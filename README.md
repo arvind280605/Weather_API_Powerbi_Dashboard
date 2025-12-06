@@ -58,6 +58,7 @@ Generate and copy your API key
 
 This key will be used to authenticate API requests
 
+
 Step 2: API URL Format
 https://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=CITY_NAME
 
@@ -66,6 +67,7 @@ Replace:
 YOUR_API_KEY with your WeatherAPI key
 
 CITY_NAME with the city you want to fetch data for
+
 
 Step 3: Connect Power BI to WeatherAPI
 
@@ -77,6 +79,7 @@ Paste the API URL
 
 Load the JSON response
 
+
 Step 4: Transform Data in Power Query
 
 Expand the current record
@@ -86,6 +89,7 @@ Expand nested fields like condition and air_quality
 Rename fields for clean modeling
 
 Close & Apply
+
 
 Step 5: Build Dashboard Visuals
 
