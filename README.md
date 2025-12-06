@@ -112,9 +112,13 @@ DAX Measures for Air Quality Indicators
 Example reusable DAX measures:
 
 AQI_PM25 = SELECTEDVALUE('Weather Data'[pm2_5])
+
 AQI_PM10 = SELECTEDVALUE('Weather Data'[pm10])
+
 AQI_NO2  = SELECTEDVALUE('Weather Data'[no2])
+
 AQI_SO2  = SELECTEDVALUE('Weather Data'[so2])
+
 AQI_CO   = SELECTEDVALUE('Weather Data'[co])
 
 
